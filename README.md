@@ -12,6 +12,9 @@ npm start
 ## Development
 
 ```sh
+# Set up .env
+cat .env.example > .env
+
 # Run with watch
 npm run dev
 
