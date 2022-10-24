@@ -1,0 +1,25 @@
+{
+  "name": "playing-with-node",
+  "version": "1.0.0",
+  "description": "a thing for playing with node",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "starwars": "^1.0.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "jest": "^29.2.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.0"
+  }
+}
